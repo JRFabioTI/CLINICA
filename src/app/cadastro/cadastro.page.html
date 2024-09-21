@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>Cadastro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list class="ion-padding">
+
+    <form [formGroup]="cadastro" (ngSubmit)="EnviarFormulario()">
+      <ion-input formControlName="nome" label="Nome" label-placement="floating" fill="outline" placeholder="Nome"></ion-input>
+      <ion-input formControlName="email" label="Email" label-placement="floating" fill="outline" placeholder="Email"></ion-input>
+      <ion-input formControlName="senha" label="Senha" label-placement="floating" fill="outline" placeholder="Senha"></ion-input>
+      <ion-input formControlName="confirmarsenha" label-placement="floating" fill="outline" placeholder="Confirmar Senha"></ion-input>
+      <ion-button type="submit" expand="block">Cadastrar</ion-button>
+    </form>
+  
+
+  </ion-list>
+
+
+
+</ion-content>
