@@ -1,44 +1,4 @@
 ion-content{
-    // --background: linear-gradient(to bottom, #8e38d1, #6409aa);
-    background-color: #fff;
-    align-items: center;
-    ion-card {
-      box-shadow: none;
-      border-radius: 20px;
-      transform: translateY(40%);
-      background-color: rgba(255, 255, 255, 0.3);
-      backdrop-filter: blur(8px);
-      div.lock {
-          font-size: 5rem;
-          ion-icon {
-              color: #4E0894;
-          }
-      }
-      ion-item {
-          --border-radius: 10px;
-      }
-      ion-input, .fwd {
-          font-size: 0.9rem;
-      }
-      .submit {
-          margin-top: 2rem;
-          ion-button {
-              --background: linear-gradient(to right, #685af8, #685af8);
-          }
-          ion-text {
-              font-size: 1rem;
-          }
-      }
-  
-      .submitTow {
-        margin-top: 2rem;
-        ion-button {
-            --background: linear-gradient(to right, #fff, #fff);
-            border: #685af8 ;
-        }
-        ion-text {
-            font-size: 1rem;
-        }
-    }
-  }
-  }
+
+
+}
